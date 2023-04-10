@@ -60,6 +60,6 @@ public class Test10done {
 			System.out.println("당신은 제주도 출생입니다.");
 		} else {
 			System.out.println("주민번호를 잘못 입력했습니다.");
+		}	
 	}
-
 }
