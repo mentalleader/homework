@@ -26,7 +26,7 @@ public class Test10done {
 		
 		if (sido>=0 && sido<=8) {
 			System.out.println("당신은 서울 출생입니다.");
-		} else if (sido>=9 && sido<=12) {			// 08과 09값에서 에러발생함.
+		} else if (sido>=9 && sido<=12) {			
 			System.out.println("당신은 부산 출생입니다.");
 		} else if (sido>=13 && sido<=15) {
 			System.out.println("당신은 인천 출생입니다.");
@@ -58,7 +58,8 @@ public class Test10done {
 			System.out.println("당신은 울산 출생입니다.");
 		} else if (sido>=92 && sido<=95) {
 			System.out.println("당신은 제주도 출생입니다.");
-		}
+		} else {
+			System.out.println("주민번호를 잘못 입력했습니다.");
 	}
 
 }
